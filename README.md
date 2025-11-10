@@ -1,8 +1,9 @@
-Customer Shopping Behavior Analysis (Python | SQL | Power BI)
-📊 Project Overview
+#Customer Shopping Behavior Analysis (Python | SQL | Power BI)
+
+##📊 Project Overview
 This project analyzes customer shopping behavior data to uncover valuable insights about purchasing patterns, customer preferences, and business performance metrics. The analysis helps businesses understand their customer base better and make data-driven decisions to improve marketing strategies, customer retention, and revenue optimization.
 
-📁 Dataset Description
+##📁 Dataset Description
 The dataset contains 3,900 customer records with the following key attributes:
 
 Customer Demographics: Age, Gender, Location
@@ -17,20 +18,20 @@ Business Operations: Shipping type, Discount applied, Promo code usage
 
 Customer Relationship: Subscription status, Payment method, Purchase frequency
 
-🎯 Problem Statement
-Businesses often struggle to understand:
+##🎯 Problem Statement
+- Businesses often struggle to understand:
 
-Who their most valuable customers are
+- Who their most valuable customers are
 
-Which products perform best
+- Which products perform best
 
-How shipping and discount strategies affect revenue
+- How shipping and discount strategies affect revenue
 
-What drives customer loyalty and subscriptions
+- What drives customer loyalty and subscriptions
 
-How to segment customers for targeted marketing
+- How to segment customers for targeted marketing
 
-🔍 Key Questions Solved
+##🔍 Key Questions Solved
 1. Gender Revenue Analysis
 Identifies which gender generates more revenue
 
@@ -81,7 +82,7 @@ Identifies which age groups contribute most to revenue
 
 Guides age-specific marketing campaigns
 
-💡 Business Value
+##💡 Business Value
 This analysis provides actionable insights for:
 
 Marketing: Targeted campaigns based on customer segments
@@ -94,5 +95,5 @@ Customer Retention: Identify and reward loyal customers
 
 Revenue Growth: Focus on high-value customer segments
 
-🛠️ Technical Implementation
+##🛠️ Technical Implementation
 The analysis uses SQL queries to extract and transform data, providing a scalable approach that can be integrated with business intelligence tools for ongoing monitoring and reporting.
