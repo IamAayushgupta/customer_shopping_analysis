@@ -1,99 +1,72 @@
-#Customer Shopping Behavior Analysis (Python | SQL | Power BI)
+# Customer Shopping Behavior Analysis
 
-##📊 Project Overview
+## 📊 Project Overview
 This project analyzes customer shopping behavior data to uncover valuable insights about purchasing patterns, customer preferences, and business performance metrics. The analysis helps businesses understand their customer base better and make data-driven decisions to improve marketing strategies, customer retention, and revenue optimization.
 
-##📁 Dataset Description
-The dataset contains 3,900 customer records with the following key attributes:
+![Customer Shopping Behavior Dashboard](dashboard-screenshot.png)
 
-Customer Demographics: Age, Gender, Location
+## 🎯 Live Dashboard Features
+The interactive dashboard provides real-time insights into customer shopping patterns with the following key visualizations:
 
-Purchase Details: Item purchased, Category, Purchase amount (USD)
+### 📈 Key Metrics Display
+- **Total Revenue** analysis with gender segmentation
+- **Average Purchase Amount** comparisons across customer segments
+- **Customer Distribution** across loyalty tiers (New, Returning, Loyal)
+- **Top Performing Products** by category and rating
 
-Product Information: Size, Color, Season
+### 🔍 Interactive Visualizations
+- **Revenue by Gender** - Pie chart showing male vs female spending patterns
+- **Subscription Performance** - Comparative analysis of subscriber vs non-subscriber metrics
+- **Product Ratings** - Display of top 5 highest-rated products
+- **Customer Segmentation** - Visual breakdown of loyalty tier distribution
+- **Shipping Analysis** - Average spend comparison across shipping methods
+- **Discount Performance** - Products with highest discount adoption rates
 
-Customer Experience: Review rating, Previous purchases
+## 📁 Dataset Description
+The dataset contains **1,377 customer records** with comprehensive attributes including:
 
-Business Operations: Shipping type, Discount applied, Promo code usage
+- **Customer Demographics**: Age, Gender, Location
+- **Purchase Details**: Item purchased, Category, Purchase amount (USD)
+- **Product Information**: Size, Color, Season
+- **Customer Experience**: Review rating, Previous purchases
+- **Business Operations**: Shipping type, Discount applied, Promo code usage
+- **Customer Relationship**: Subscription status, Payment method, Purchase frequency
 
-Customer Relationship: Subscription status, Payment method, Purchase frequency
+## 🛠️ Technical Stack
 
-##🎯 Problem Statement
-- Businesses often struggle to understand:
+### Backend & Analysis
+- **Python** - Data processing and analysis
+- **SQL** - Database queries and data extraction
+- **Pandas** - Data manipulation and transformation
+- **NumPy** - Numerical computations
 
-- Who their most valuable customers are
+### Visualization & Dashboard
+- **Power BI** - Interactive dashboard creation
+- **DAX** - Business intelligence calculations
+- **Power Query** - Data transformation and modeling
 
-- Which products perform best
+### Database
+- **PostgreSQL/MySQL** - Data storage and management
 
-- How shipping and discount strategies affect revenue
+## 🎯 Business Problems Solved
 
-- What drives customer loyalty and subscriptions
+### 1. **Customer Segmentation & Targeting**
+- Identifies New, Returning, and Loyal customer segments
+- Enables personalized marketing campaigns
+- Facilitates customer lifetime value prediction
 
-- How to segment customers for targeted marketing
+### 2. **Revenue Optimization**
+- Reveals highest revenue-generating customer segments
+- Identifies products with best discount performance
+- Compares subscription vs non-subscription revenue impact
 
-##🔍 Key Questions Solved
-1. Gender Revenue Analysis
-Identifies which gender generates more revenue
+### 3. **Product Strategy**
+- Highlights top-rated products for quality assurance
+- Shows category performance for inventory planning
+- Identifies discount-sensitive products for promotions
 
-Helps in gender-specific marketing strategies
+### 4. **Operational Efficiency**
+- Evaluates shipping method cost-effectiveness
+- Analyzes subscription program ROI
+- Measures discount strategy effectiveness
 
-2. High-Value Discount Customers
-Finds customers who use discounts but still spend above average
-
-Identifies price-sensitive yet valuable customers
-
-3. Product Quality Assessment
-Reveals top-rated products by customer reviews
-
-Helps in inventory and promotion planning
-
-4. Shipping Strategy Evaluation
-Compares customer spending between shipping methods
-
-Informs logistics and pricing strategies
-
-5. Subscription Program Effectiveness
-Measures if subscribed customers spend more
-
-Evaluates subscription program ROI
-
-6. Discount Performance by Product
-Identifies products with highest discount adoption
-
-Guides promotional strategy
-
-7. Customer Segmentation
-Classifies customers as New, Returning, or Loyal
-
-Enables targeted retention strategies
-
-8. Category Performance
-Shows top-selling products in each category
-
-Assorts inventory and marketing focus
-
-9. Loyalty-Subscription Correlation
-Examines if repeat buyers are more likely to subscribe
-
-Informs loyalty program design
-
-10. Age Group Revenue Contribution
-Identifies which age groups contribute most to revenue
-
-Guides age-specific marketing campaigns
-
-##💡 Business Value
-This analysis provides actionable insights for:
-
-Marketing: Targeted campaigns based on customer segments
-
-Product Management: Focus on high-performing products
-
-Pricing Strategy: Optimize discount and shipping options
-
-Customer Retention: Identify and reward loyal customers
-
-Revenue Growth: Focus on high-value customer segments
-
-##🛠️ Technical Implementation
-The analysis uses SQL queries to extract and transform data, providing a scalable approach that can be integrated with business intelligence tools for ongoing monitoring and reporting.
