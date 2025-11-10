@@ -42,11 +42,9 @@ The dataset contains **1,377 customer records** with comprehensive attributes in
 
 ### Visualization & Dashboard
 - **Power BI** - Interactive dashboard creation
-- **DAX** - Business intelligence calculations
-- **Power Query** - Data transformation and modeling
 
 ### Database
-- **PostgreSQL/MySQL** - Data storage and management
+- **PostgreSQL** - Data storage and management
 
 ## 🎯 Business Problems Solved
 
